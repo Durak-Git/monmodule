@@ -1,31 +1,25 @@
 {
   "id": "monmodule",
   "title": "New Module",
-  "description": "",
   "version": "#{VERSION}#",
-  "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 13,
-    "verified": 13,
-    "maximum": 14
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "14"
   },
   "authors": [
     {
       "name": "The League of Extraordinary FVTT Developers",
       "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "discord": "discordID#0001",
+      "flags": {}
     },
     {
       "name": "Durak",
-      "url": "",
-      "discord": ""
+      "flags": {}
     }
   ],
-  "relationships": {
-    "systems": [],
-    "requires": []
-  },
   "esmodules": [
     "scripts/module.js"
   ],
@@ -33,13 +27,16 @@
     "scripts/lib/lib.js"
   ],
   "styles": [
-    "styles/module.css"
+    {
+      "src": "styles/module.css"
+    }
   ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     }
   ],
   "url": "#{URL}#",
@@ -50,7 +47,24 @@
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4",
+      "loop": false,
+      "flags": {}
     }
-  ]
+  ],
+  "packs": [
+    {
+      "name": "EmberMacro",
+      "label": "Macros",
+      "path": "packs/EmberMacro",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "description": "",
+  "flags": {}
 }
