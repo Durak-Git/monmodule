@@ -65,10 +65,10 @@
       "flags": {}
     },
     {
-      "name": "pack-2",
-      "label": "Pack 2",
-      "path": "packs/pack-2",
-      "type": "JournalEntry",
+      "name": "EmberEffects",
+      "label": "Effects",
+      "path": "packs/EmberEffects",
+      "type": "ActiveEffect",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
