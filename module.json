@@ -73,6 +73,7 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
+      "system": "crucible",
       "flags": {}
     }
   ],
