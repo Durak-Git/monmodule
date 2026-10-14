@@ -1,6 +1,6 @@
 {
   "id": "monmodule",
-  "title": "New Module",
+  "title": "Mes Macros Communes",
   "version": "#{VERSION}#",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
@@ -58,6 +58,17 @@
       "label": "Macros",
       "path": "packs/EmberMacro",
       "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pack-2",
+      "label": "Pack 2",
+      "path": "packs/pack-2",
+      "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
